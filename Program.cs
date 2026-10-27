@@ -24,8 +24,7 @@ class Moradia : Imovel
     double areaJardim;
 
     // base(...) invoca o construtor da classe base
-    public Moradia(double area, string numeroPredial, double areaJardim)
-        : base(area, numeroPredial)
+    public Moradia(double area, string numeroPredial, double areaJardim): base(area, numeroPredial)
     {
         this.areaJardim = areaJardim;
     }
