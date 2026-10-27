@@ -45,6 +45,17 @@ public class Main {
         moradiaCampo.mostrarJardim();
 
         Apartamento apartamento1Porto = new Apartamento(80, "APTO-00123", 3);
-        apartamento1Porto.mostrarAndar();
+         apartamento1Porto.mostrarAndar();
+
+         /*
+         $ javac Main.java
+         javac é o compilador Java. Lê o ficheiro Main.java e, se não existirem erros, gera o ficheiro Main.class, que contém o bytecode Java
+
+         $ java Main
+         java executa o programa. Reparar que se escreve Main, sem a extensão .java ou .class.
+        
+         Tudo junto: 
+         $ javac Main.java && java Main
+         */
     }
 }
