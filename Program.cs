@@ -56,12 +56,16 @@ public class Program
 {
     public static void Main(string[] args)
     {
+        Console.WriteLine("Olá!");
+
         Moradia moradiaCampo = new Moradia(300, "CASA-456", 50);
         moradiaCampo.MostrarJardim();
         moradiaCampo.AbrirPorta();      // método herdado de Imovel
+
 
         Apartamento apartamento1Porto = new Apartamento(80, "APTO-00123", 3);
         apartamento1Porto.MostrarAndar();
         apartamento1Porto.AbrirPorta(); // método herdado de Imovel
     }
+
 }
